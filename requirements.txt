@@ -1,0 +1,11 @@
+Flask>=3.1,<4
+PyMySQL>=1.1,<2
+cryptography>=42        # PyMySQL lo necesita para el login caching_sha2 de MySQL 8
+PyJWT>=2.9,<3
+pydantic>=2.8,<3
+python-dotenv>=1.0,<2
+Pillow>=10.4
+itsdangerous>=2.2,<3
+
+# Desarrollo
+pytest>=8
